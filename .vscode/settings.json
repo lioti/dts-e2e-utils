@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "node_modules/": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  },
+  "files.trimTrailingWhitespace": true
+}

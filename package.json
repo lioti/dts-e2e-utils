@@ -1,0 +1,41 @@
+{
+  "name": "dts-e2e-utils",
+  "version": "1.0.0",
+  "description": "Utilitários de testes e2e para o \"TOTVS Datasul\"",
+  "author": "TOTVS S/A",
+  "license": "ISC",
+  "homepage": "https://github.com/totvs/dts-e2e-utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubinhos/dts-e2e-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rubinhos/dts-e2e-utils/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp",
+    "tsc": "./node_modules/.bin/tsc",
+    "build": "npm run gulp -- build"
+  },
+  "keywords": [
+    "totvs",
+    "datasul",
+    "progress",
+    "openedge",
+    "oe-test-agent",
+    "e2e",
+    "tests"
+  ],
+  "dependencies": {
+    "oe-test-agent": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.21",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.0",
+    "gulp-uglify-es": "^1.0.4",
+    "typescript": "^3.3.1"
+  }
+}
